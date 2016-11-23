@@ -1,0 +1,80 @@
+@import "templatecolours.css";
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav>ul {
+    list-style-type: none; /*Gets rid of bullet points*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav>ul>li {
+    float: left; /*Floats each item to the left*/
+}
+
+nav>ul>li a {
+    display: block;
+    color: #000000;   /*Removes the underline, centres text and gives it padding*/
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+li a:hover {
+    color: #363636; /*Gives it a hover colour*/
+}
+
+
+#logo
+{
+    width: 600px;
+}
+
+#menu
+{
+    width: 135px;
+    float: left;
+    padding-right: 30px;
+}
+
+#undergraduate {
+    width: 300px;
+    float: left;
+    padding-right: 30px;
+    padding-left: 150px;
+}
+
+#postgraduate {
+    width: 150px;
+    float: right;
+    padding-right: 30px;
+    padding-left: 150px;
+}
+/* Text Styling */
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+p,h2,h3,h4,h5,a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h3,h4,h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+/* Colourings */
+
+
+}
+footer{
+    background-color: #363636;
+}
+
