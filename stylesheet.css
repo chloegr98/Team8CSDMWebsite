@@ -4,6 +4,10 @@ body{
     margin: 0px auto;
 }
 
+html {
+    background-color: whitesmoke;
+}
+
 nav {
     background-color: rgba(0,0,0,0.35);
 }
