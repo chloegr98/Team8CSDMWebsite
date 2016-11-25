@@ -1,11 +1,15 @@
 @import "templatecolours.css";
 body{
+    background-color: whitesmoke;
     max-width: 960px;
     margin: 0px auto;
 }
 
-html {
-    background-color: whitesmoke;
+h1 {
+    border-color: darkorchid;
+    border-style: solid;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 nav {
@@ -31,10 +35,13 @@ nav>ul>li a {
     text-decoration: none;
 }
 li a:hover {
-    color: #363636; /*Gives it a hover colour*/
+    color: #A100CD; /*Gives it a hover colour*/
 }
 
-
+#logo
+{
+    width: 20%;
+}
 #banner
 {
     width: 100%;
@@ -47,30 +54,8 @@ li a:hover {
     padding-right: 30px;
 }
 
-#undergraduate {
-    border-color: darkorchid;
-    border-style: solid;
-    width: 300px;
-    float: left;
-    padding-right: 30px;
-    padding-left: 150px;
-}
 
-#postgraduate {
-    border-color: darkorchid;
-    border-style: solid;
-    height: 200px;
-    width: 150px;
-    float: right;
-    padding-right: 30px;
-    padding-left: 150px;
-}
 /* Text Styling */
-
-h1{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-}
 
 p,h2,h3,h4,h5,a{
     font-family: 'Roboto', sans-serif;
@@ -81,7 +66,6 @@ h3,h4,h5{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
-
 header {
     position: relative;
 }
@@ -95,12 +79,25 @@ nav {
     bottom: 0px;
     color: whitesmoke;
 }
-
-/* Colourings */
+article{
+    padding-top: 50px;
 
 
 }
 footer{
+    text-align: center;
     background-color: #363636;
 }
 
+@media (max-width: 960px) {
+    nav li {
+        display: block;
+        width: 100%;
+
+    }
+
+    nav li>a {
+        text-align: left !important;
+    }
+
+}
