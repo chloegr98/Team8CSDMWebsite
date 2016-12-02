@@ -4,6 +4,7 @@ html, body, main {
 }
 
 main {
+	padding-top: 260px;
 	color: rgb(50, 50, 50);
 	font-size: 1em;
 }
