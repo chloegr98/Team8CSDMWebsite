@@ -45,6 +45,10 @@ li a:hover {
     color: #A100CD; /*Gives it a hover colour*/
 }
 
+#campus
+{
+    width: 33%
+}
 #logo
 {
     width: 20%;
