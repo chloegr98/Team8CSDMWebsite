@@ -35,7 +35,7 @@ nav>ul>li {
 
 nav>ul>li a {
     display: block;
-    color: #000000;   /*Removes the underline, centres text and gives it padding*/
+    color: #000000;   /*Removes the underline, centers text and gives it padding*/
     text-align: center;
     padding: 10px 30px;
     text-decoration: none;
@@ -91,7 +91,7 @@ nav {
 }
 article{
     padding-top: 50px;
-
+    background-color: #d5c0e5;
 
 }
 footer{
