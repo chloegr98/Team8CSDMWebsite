@@ -6,12 +6,11 @@ body{
 }
 
 h1 {
-    border-color: darkorchid;
+    border-color: #e4e1e5;
     border-style: solid;
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     margin: 1em 0 1em 0;
-    color: rgb(67, 67, 67);
     font-weight: 700;
 }
 h2{
@@ -69,7 +68,7 @@ li a:hover {
 /* Text Styling */
 
 p,h2,h3,h4,h5,a{
-    color: rgb(50, 50, 50);
+
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
@@ -100,6 +99,12 @@ footer{
     text-align: center;
     background-color: #e4e1e5;
 }
+
+iframe{
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
 
 @media (max-width: 960px) {
     nav li {
