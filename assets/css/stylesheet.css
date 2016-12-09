@@ -15,10 +15,25 @@ h1 {
 }
 h2{
     margin: 1em 0 1em 0;
-    padding: 0px 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 125%;
+    color: #862d86;
+}
+h3,h4,h5{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
 }
 nav {
     background-color: rgba(0,0,0,0.35);
+}
+
+
+section>ul>li a{
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #862d86;
 }
 
 nav>ul {
@@ -67,15 +82,12 @@ li a:hover {
 
 /* Text Styling */
 
-p,h2,h3,h4,h5,a{
+p,a{
 
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
-h3,h4,h5{
-    font-weight: 700;
-}
 header {
     position: relative;
 }
@@ -89,15 +101,10 @@ nav {
     bottom: 3px;
     color: whitesmoke;
 }
-article{
-    padding-top: 50px;
-    background-color: #d5c0e5;
 
-}
 footer{
     text-decoration-color: lightgray;
     text-align: center;
-    background-color: #e4e1e5;
 }
 
 iframe{
