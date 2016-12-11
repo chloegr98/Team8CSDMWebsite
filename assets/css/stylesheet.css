@@ -50,9 +50,9 @@ nav>ul>li {
 
 nav>ul>li a {
     display: block;
-    color: #000000;   /*Removes the underline, centers text and gives it padding*/
+    color: #000000;
     text-align: center;
-    padding: 10px 30px;
+    padding: 5px 32px;
     text-decoration: none;
 }
 li a:hover {
@@ -65,10 +65,13 @@ li a:hover {
 }
 #logo
 {
+    background-color: #ffffff;
+    position: absolute;
     width: 20%;
 }
 #banner
 {
+
     width: 103%;
 }
 
@@ -79,7 +82,11 @@ li a:hover {
     padding-right: 30px;
 }
 
-
+#ResearchImages
+{
+    padding-left: 40px;
+    width: 35%
+}
 /* Text Styling */
 
 p,a{
