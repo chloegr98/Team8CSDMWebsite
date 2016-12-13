@@ -10,7 +10,6 @@ h1 {
     border-style: solid;
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
-    margin: 1em 0 1em 0;
     font-weight: 700;
 }
 h2{
@@ -51,15 +50,16 @@ nav>ul>li {
     float: left; /*Floats each item to the left*/
 }
 
+nav>ul>li a:hover {
+    color: #A100CD; /*Doesn't work*/
+}
+
 nav>ul>li a {
     display: block;
     color: #000000;
     text-align: center;
     padding: 5px 32px;
     text-decoration: none;
-}
-li a:hover {
-    color: #A100CD; /*Gives it a hover colour*/
 }
 
 #campus
@@ -81,10 +81,6 @@ li a:hover {
     width: 103%;
 }
 
-#siwb
-{
-    width: 100%;
-}
 #menu
 {
     float: left;
@@ -152,7 +148,9 @@ iframe{
     padding-top: 10px;
     padding-right: 20px;
 }
-
+article>h4>a {
+    font-weight: 700;
+}
 
 @media (max-width: 960px) {
     nav li {
