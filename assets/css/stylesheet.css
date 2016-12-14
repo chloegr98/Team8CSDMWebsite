@@ -38,6 +38,39 @@ section>ul>li a{
     color: #862d86;
 }
 
+/*=================Events calander=============*/
+
+#events {
+}
+
+h1.header_events{
+    border-color: #e4e1e5;
+    border-style: solid;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    margin: 1em 0 1em 0;
+    font-weight: 700;
+}
+
+h2.month_year {
+	 margin: 1em 0 1em 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 125%;
+    color: #862d86;	
+}
+
+h4.event{
+	font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+	padding-left: 2em;
+ }
+p.date{
+	padding-left: 40px;
+	}
+
+/*=================Events calander=============*/
+
 nav>ul {
     list-style-type: none; /*Gets rid of bullet points*/
     margin: 0;
