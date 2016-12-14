@@ -1,0 +1,199 @@
+@import "templatecolours.css";
+body{
+    background-color: whitesmoke;
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+h1 {
+    border-color: #e4e1e5;
+    border-style: solid;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+h2{
+    margin: 1em 0 1em 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 125%;
+    color: #862d86;
+}
+h3,h4,h5{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    background-color: rgba(0,0,0,0.35);
+}
+
+section>ul>li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+section>ul>li a{
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #862d86;
+}
+
+/*=================Events calander=============*/
+
+#events {
+}
+
+h1.header_events{
+    border-color: #e4e1e5;
+    border-style: solid;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    margin: 1em 0 1em 0;
+    font-weight: 700;
+}
+
+h2.month_year {
+	 margin: 1em 0 1em 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 125%;
+    color: #862d86;	
+}
+
+h4.event{
+	font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+	padding-left: 2em;
+ }
+p.date{
+	padding-left: 40px;
+	}
+
+/*=================Events calander=============*/
+
+nav>ul {
+    list-style-type: none; /*Gets rid of bullet points*/
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+nav>ul>li {
+    float: left; /*Floats each item to the left*/
+}
+
+nav>ul>li a:hover {
+    color: #A100CD; /*Doesn't work*/
+}
+
+nav>ul>li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 5px 32px;
+    text-decoration: none;
+}
+
+#campus
+{
+    width: 33%
+}
+#logo
+{
+    border-style: solid;
+    border-right-width: 765px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    position: absolute;
+    width: 20%;
+}
+#banner
+{
+
+    width: 103%;
+}
+
+#menu
+{
+    float: left;
+    padding-right: 30px;
+}
+
+.ResearchImages
+{
+    padding-left: 40px;
+    width: 35%
+}
+
+#social-media-wrapper {
+    text-align: center;
+    font-weight: 400;
+}
+
+.social-media-icon {
+    text-decoration: none;
+    margin: 0.2em 0.2em 0.2em 0.2em;
+}
+
+.social-media-icon img {
+    width: 28px;
+    height: 28px;
+}
+#staffInfo td {
+   font-family: 'Roboto', sans-serif;
+    border: 0;
+    padding: .2em;
+    width: 18%;
+}
+p,a{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    position: relative;
+}
+
+header a {
+    color: whitesmoke !important;
+}
+
+nav {
+    position: absolute;
+    bottom: 3px;
+    color: whitesmoke;
+}
+footer>h2{
+
+    color: rgb(87, 87, 87);
+    font-weight: 200;
+    text-align: center;
+}
+footer>p{
+    text-decoration-color: rgb(87, 87, 87);
+    text-align: center;
+    font-weight: 100;
+}
+
+iframe{
+    padding-top: 10px;
+    padding-right: 20px;
+}
+article>h4>a {
+    font-weight: 700;
+}
+
+@media (max-width: 960px) {
+    nav li {
+        display: block;
+        width: 100%;
+
+    }
+
+    nav li>a {
+        text-align: left !important;
+    }
+
+}
